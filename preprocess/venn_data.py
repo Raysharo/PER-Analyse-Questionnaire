@@ -23,9 +23,7 @@ def generate_venn_data(input_file="./data/dataQuestionnaire.csv", output_file=".
             "C : " + question_names[2],
             "D : " + question_names[3]
         ]
-
         
-
         # Prepare the sets for the Venn diagram
         sets = [
             

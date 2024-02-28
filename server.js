@@ -4,7 +4,7 @@ const path = require('path');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
-
+    
 // Serve static files from the 'src' directory
 app.use('/src', express.static(path.join(__dirname, 'src')));
 
