@@ -105,10 +105,20 @@ function vennDiagram() {
 
 
 async function fetchData() {
-    const cityCoordinates = await d3.json("../data/cityCoordinates.json");
-    const structured_data = await d3.json("../data/structured_data.json");
-    const france = await d3.json("../data/regions.geojson");
-    const venn_data = await d3.json("../data/venn_data.json");
+    // const cityCoordinates = await d3.json("../data/cityCoordinates.json");
+    // const structured_data = await d3.json("../data/structured_data.json");
+    // const france = await d3.json("../data/regions.geojson");
+    // const venn_data = await d3.json("../data/venn_data.json");
+
+    // From localhost
+    const cityCoordinates = await d3.json("/data/cityCoordinates.json");
+    const structured_data = await d3.json("/data/structured_data.json");
+    const france = await d3.json("/data/regions.geojson");
+    const venn_data = await d3.json("/data/venn_data.json");
+
+
+
+
     return { cityCoordinates, structured_data, france, venn_data };
 }
 
