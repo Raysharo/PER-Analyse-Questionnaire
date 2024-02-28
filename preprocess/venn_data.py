@@ -1,7 +1,5 @@
 import csv
 import json
-from collections import defaultdict
-from itertools import combinations
 
 def generate_venn_data(input_file="./data/dataQuestionnaire.csv", output_file="./data/venn_data.json"):
     # Load the data from the CSV file with semicolon delimiter
@@ -23,7 +21,7 @@ def generate_venn_data(input_file="./data/dataQuestionnaire.csv", output_file=".
             "C : " + question_names[2],
             "D : " + question_names[3]
         ]
-        
+
         # Prepare the sets for the Venn diagram
         sets = [
             

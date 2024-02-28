@@ -12,8 +12,8 @@ nlp = spacy.load("fr_core_news_sm")
 
 csv_file = "./data/dataQuestionnaire.csv"
 
-milena_sentiment_float_file = "data/FromMilena/resultat_analyse_sentiments_float.csv"
-milena_expression_file = "data\FromMilena\expressions.csv"
+milena_sentiment_float_file = "data/Notation/resultat_analyse_sentiments_float.csv"
+milena_expression_file = "data/Notation/expressions.csv"
 
 OPEN_ENDED_COLUMNS_HEADERS = [
     "Commentaires éventuels (sur le formulaire ou sur votre situation personnelle)",
@@ -178,8 +178,5 @@ def create_city_coord_json_data(df, output_file='./data/cityCoordinates.json'):
 df = pd.read_csv(csv_file, encoding='latin1', sep=';')
 df = df.dropna(subset=OPEN_ENDED_COLUMNS_HEADERS, how='all')
 
-# # print headers
-# print(df.columns)
-
 create_structured_json_data(df)
-# create_city_coord_json_data(df)
+create_city_coord_json_data(df)
