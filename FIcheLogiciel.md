@@ -1,23 +1,23 @@
 # Description de l'arborescence
 
-Project
+Projet
 |-- data : contient les différents fichiers .csv et .json sur lesquelles se base la visualisation
-|   |-- cityCoordinates.json : contient les coordonnées GPS de chaque localité, et ceux afin d'éviter les requêtes à l'API d'openstreetmap à chaque chargement de la visualisation  
+|   |-- cityCoordinates.json : contient les coordonnées GPS de chaque localité, et ceux afin d'éviter les requêtes à l'API d'OpenStreetMap à chaque chargement de la visualisation 
 |   |-- dataQuestionnaire.csv : contient les données d'origine de l'étude
-|   |-- regions.geojson : contient une représentation de la carte de france métropolitaine, utilisé pour la visualtion de donné combiné carte et nuage de mot.
-|   |-- structured_data.json : contient une version reformarté des données de dataQuestionnaire.csv afin de facilité leur manipulation par app.js
-|   |-- venn_data.json : contient les informations nécessaire à la construction du diagramme de venn, créer par venn_data.py, utilisé par app.js
-|   |-- Notation
+|   |-- regions.geojson : contient une représentation de la carte de France métropolitaine, utilisé pour la visualisation de donnée combinée carte et nuage de mot.
+|   |-- structured_data.json : contient une version reformatée des données de dataQuestionnaire.csv afin de faciliter leur manipulation par app.js
+|   |-- venn_data.json : contient les informations nécessaires à la construction du diagramme de Venn, créer par venn_data.py, utilisé par app.js
+|   |-- Notation : contient les différents fichiers .csv associé à la notation des sentiments
 |       |-- expressions.csv : contient l'ensemble des expressions trouvées pour chaque sondé. 
-|       |-- resultat_analyse_sentiments_float.csv : associe une note floatante à chaque question ouverte 
-|-- preprocess : contient les différents fichiés pythons servant au traitement et au formatage des données pour la visualisation
+|       |-- resultat_analyse_sentiments_float.csv : associe une note flottante à chaque question ouverte 
+|-- preprocess : contient les différents fichiers pythons servant au traitement et au formatage des données pour la visualisation
 |   |-- main_preprocess.py : génère cityCoordinates.json et structured_data.json à partir de dataQuestionnaire.csv, resultat_analyse_sentiments_float.csv et expressions.csv
-|   |-- venn_data.py : géère venn_data.json à partir de dataQuestionnaire.csv
+|   |-- venn_data.py : génère venn_data.json à partir de dataQuestionnaire.csv
 |-- src : contient l'essentiel des fichiers servant à la construction de la page web
-|   |-- index.html : Sert de point d'entré pour la visualisation
-|   |-- app.js : Script générant la visualisation des données fournies dans le dossier /data. Celle ci est composé des fonctions map, vennDiagram, circular_diagram, stacked_bar ,  createStackedExpression générant chacune les visualisations qui leur correspondent.
-|   |-- *.css : Feuille de style métant en forme la page index.html
-|   |-- favicon.ico : Exemple d'îcone utilisatble pour index.html
+|   |-- index.html : Sert de point d'entrée pour la visualisation
+|   |-- app.js : Script générant la visualisation des données fournies dans le dossier /data. Celle-ci est composée des fonctions map, vennDiagram, circular_diagram, stacked_bar, createStackedExpression générant chacune les visualisations qui leur correspondent.
+|   |-- *.css : Feuille de style mettant en forme la page index.html
+|   |-- favicon.ico : Exemple d'icône utilisable pour index.html
 |-- server.js
 
 <!-- Miena -->
