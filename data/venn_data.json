@@ -1,0 +1,111 @@
+{
+    "sets": [
+        {
+            "sets": [
+                "A : Commentaires \u00e9ventuels (sur le formulaire ou sur votre situation personnelle)"
+            ],
+            "size": 105
+        },
+        {
+            "sets": [
+                "B : Commentaires \u00e9ventuels (sur le formulaire ou sur votre appr\u00e9ciation personnelle de l'enseignement)"
+            ],
+            "size": 183
+        },
+        {
+            "sets": [
+                "C : Commentaires \u00e9ventuels (sur le formulaire ou sur votre appr\u00e9ciation personnelle de la recherche)"
+            ],
+            "size": 185
+        },
+        {
+            "sets": [
+                "D : Pouvez-vous expliquer vos r\u00e9ponses merci ..."
+            ],
+            "size": 366
+        },
+        {
+            "sets": [
+                "A : Commentaires \u00e9ventuels (sur le formulaire ou sur votre situation personnelle)",
+                "B : Commentaires \u00e9ventuels (sur le formulaire ou sur votre appr\u00e9ciation personnelle de l'enseignement)"
+            ],
+            "size": 64
+        },
+        {
+            "sets": [
+                "A : Commentaires \u00e9ventuels (sur le formulaire ou sur votre situation personnelle)",
+                "C : Commentaires \u00e9ventuels (sur le formulaire ou sur votre appr\u00e9ciation personnelle de la recherche)"
+            ],
+            "size": 56
+        },
+        {
+            "sets": [
+                "A : Commentaires \u00e9ventuels (sur le formulaire ou sur votre situation personnelle)",
+                "D : Pouvez-vous expliquer vos r\u00e9ponses merci ..."
+            ],
+            "size": 86
+        },
+        {
+            "sets": [
+                "B : Commentaires \u00e9ventuels (sur le formulaire ou sur votre appr\u00e9ciation personnelle de l'enseignement)",
+                "C : Commentaires \u00e9ventuels (sur le formulaire ou sur votre appr\u00e9ciation personnelle de la recherche)"
+            ],
+            "size": 0
+        },
+        {
+            "sets": [
+                "B : Commentaires \u00e9ventuels (sur le formulaire ou sur votre appr\u00e9ciation personnelle de l'enseignement)",
+                "D : Pouvez-vous expliquer vos r\u00e9ponses merci ..."
+            ],
+            "size": 122
+        },
+        {
+            "sets": [
+                "C : Commentaires \u00e9ventuels (sur le formulaire ou sur votre appr\u00e9ciation personnelle de la recherche)",
+                "D : Pouvez-vous expliquer vos r\u00e9ponses merci ..."
+            ],
+            "size": 169
+        },
+        {
+            "sets": [
+                "A : Commentaires \u00e9ventuels (sur le formulaire ou sur votre situation personnelle)",
+                "B : Commentaires \u00e9ventuels (sur le formulaire ou sur votre appr\u00e9ciation personnelle de l'enseignement)",
+                "C : Commentaires \u00e9ventuels (sur le formulaire ou sur votre appr\u00e9ciation personnelle de la recherche)"
+            ],
+            "size": 0
+        },
+        {
+            "sets": [
+                "A : Commentaires \u00e9ventuels (sur le formulaire ou sur votre situation personnelle)",
+                "B : Commentaires \u00e9ventuels (sur le formulaire ou sur votre appr\u00e9ciation personnelle de l'enseignement)",
+                "D : Pouvez-vous expliquer vos r\u00e9ponses merci ..."
+            ],
+            "size": 48
+        },
+        {
+            "sets": [
+                "A : Commentaires \u00e9ventuels (sur le formulaire ou sur votre situation personnelle)",
+                "C : Commentaires \u00e9ventuels (sur le formulaire ou sur votre appr\u00e9ciation personnelle de la recherche)",
+                "D : Pouvez-vous expliquer vos r\u00e9ponses merci ..."
+            ],
+            "size": 270
+        },
+        {
+            "sets": [
+                "B : Commentaires \u00e9ventuels (sur le formulaire ou sur votre appr\u00e9ciation personnelle de l'enseignement)",
+                "C : Commentaires \u00e9ventuels (sur le formulaire ou sur votre appr\u00e9ciation personnelle de la recherche)",
+                "D : Pouvez-vous expliquer vos r\u00e9ponses merci ..."
+            ],
+            "size": 0
+        },
+        {
+            "sets": [
+                "A : Commentaires \u00e9ventuels (sur le formulaire ou sur votre situation personnelle)",
+                "B : Commentaires \u00e9ventuels (sur le formulaire ou sur votre appr\u00e9ciation personnelle de l'enseignement)",
+                "C : Commentaires \u00e9ventuels (sur le formulaire ou sur votre appr\u00e9ciation personnelle de la recherche)",
+                "D : Pouvez-vous expliquer vos r\u00e9ponses merci ..."
+            ],
+            "size": 268
+        }
+    ]
+}
